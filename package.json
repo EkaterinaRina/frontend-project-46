@@ -19,6 +19,7 @@
     "lodash": "^4.17.21",
     "node": "^21.6.2",
     "readfilesync": "^1.1.5",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "yaml": "^2.3.4"
   }
 }

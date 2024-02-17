@@ -1,5 +1,6 @@
 import path from 'path';
 import process from 'process';
+import parse from './parse.js';
 import { readFileSync } from 'fs';
 
 const getFileType = (filepath) => path.extname(filepath);
@@ -18,6 +19,7 @@ const gendiff = (filepath1, filepath2, format = 'stylish') => {
 
     const parseData1 = dataParse(data1, ext1);
     const parseData2 = dataParse(data2, ext2);
+    console.log(parseData1);
     return parseData1, parseData2;
 };
 
