@@ -1,8 +1,8 @@
 import { fileURLToPath } from 'url';
 import path, { dirname } from 'path';
 import { test, expect } from '@jest/globals';
-import { readFileSync } from "fs";
-import gendiff from "../scr/index";
+import { readFileSync } from 'fs';
+import gendiff from '../scr/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -19,6 +19,6 @@ test('gendiff', () => {
   const file2 = 'file2.json';
   const filepath1 = getFilePath(file1);
   const filepath2 = getFilePath(file2);
-  const result = readFile('result.txt')
+  const result = readFile('result.txt');
   expect(gendiff(filepath1, filepath2)).toEqual(getString(result));
 });
