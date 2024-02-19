@@ -11,3 +11,5 @@
 ### Возможности утилиты:  
 * Поддержка разных входных форматов: yaml, json  
 * Генерация отчета в виде plain text, stylish и json  
+
+[![asciicast](https://asciinema.org/a/LRb1gJpWca4WoCvFO4pwYpO4E.svg)](https://asciinema.org/a/LRb1gJpWca4WoCvFO4pwYpO4E)  
