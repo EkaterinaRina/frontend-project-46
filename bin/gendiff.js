@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { Command } from 'commander';
-import gendiff from '../scr/index';
+import gendiff from '../scr/index.js';
 
 const program = new Command();
 
@@ -12,7 +12,7 @@ program
   .option('-f, --format [type]', 'output format')
   .action((filepath1, filepath2) => {
     //  const options = program.opts().format;
-    const result = gendiff(filepath1, filepath2); // options format
+    const result = gendiff(filepath1, filepath2); //   options format
     return result;
   });
 program.parse();
