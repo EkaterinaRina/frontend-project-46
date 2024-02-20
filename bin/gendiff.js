@@ -13,6 +13,6 @@ program
   .action((filepath1, filepath2) => {
     //  const options = program.opts().format;
     const result = gendiff(filepath1, filepath2); //   options format
-    return result;
+    console.log(result);
   });
 program.parse();

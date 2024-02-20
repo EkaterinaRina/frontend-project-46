@@ -20,6 +20,7 @@
     "node": "^21.6.2",
     "readfilesync": "^1.1.5",
     "readline-sync": "^1.4.10",
+    "js-yaml": "^4.1.0",
     "yaml": "^2.3.4"
   },
   "devDependencies": {

@@ -11,7 +11,7 @@ const readFile = (filepath) => readFileSync(filepath);
 const dataParse = (filepath, ext) => parse(filepath, ext);
 
 const gendiff = (filepath1, filepath2) => {
-  //  тут еще будет формат из опций
+  //  format третьим аргументом (stylish ...)
   const ext1 = getFileType(filepath1);
   const path1 = getFilePath(filepath1);
   const data1 = readFile(path1);
@@ -20,8 +20,8 @@ const gendiff = (filepath1, filepath2) => {
   const data2 = readFile(path2);
   const obj1 = dataParse(data1, ext1);
   const obj2 = dataParse(data2, ext2);
-  //    console.log(compareFiles(obj1, obj2));
-  return compareFiles(obj1, obj2);
+  const difference = compareFiles(obj1, obj2);
+  return difference;
 };
 
 export default gendiff;

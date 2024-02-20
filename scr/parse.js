@@ -1,9 +1,10 @@
-import YAML from 'yaml';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import yaml from 'js-yaml';
 
 const parsing = {
   json: JSON.parse,
-  yaml: YAML.parse,
-  yml: YAML.parse,
+  yaml: yaml.load,
+  yml: yaml.load,
 };
 
 const parse = (filepath, ext) => {
