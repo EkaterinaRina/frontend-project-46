@@ -14,10 +14,17 @@
   
 ### Установка  
 1. Клонируйте данный репозиторий командой: git clone  
-2. Выполните установку пакета командой: npm link  
+2. Выполните установку пакета командой: npm link
+
+### Агрументы и опции  
+gendiff -h  
+[![asciicast](https://asciinema.org/a/8HGR5Nc1805GyLNWhDzQzq9FN.svg)](https://asciinema.org/a/8HGR5Nc1805GyLNWhDzQzq9FN)  
   
 ### Сравнение плоских файлов (json)  
 [![asciicast](https://asciinema.org/a/LRb1gJpWca4WoCvFO4pwYpO4E.svg)](https://asciinema.org/a/LRb1gJpWca4WoCvFO4pwYpO4E)  
 
 ### Сравнение плоских файлов (yaml)  
 [![asciicast](https://asciinema.org/a/ChR7BwCxI0j6tz7yrLFp0b99D.svg)](https://asciinema.org/a/ChR7BwCxI0j6tz7yrLFp0b99D)  
+
+### Рекурсивное сравнение  
+[![asciicast](https://asciinema.org/a/p17hbQ7o7wLf75zF9t1yGdm3H.svg)](https://asciinema.org/a/p17hbQ7o7wLf75zF9t1yGdm3H)  
