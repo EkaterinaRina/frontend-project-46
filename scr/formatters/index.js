@@ -11,8 +11,7 @@ export default (data, format) => {
     case 'json':
       return getJson(data);
     default:
-      if (!['stylish', 'plain', 'json'].includes(format)) {
-        throw new Error(`Неизвестный формат ${format}`);
-      }
+      return [];
+      //  throw new Error(`Неизвестный формат ${format}`);
   }
 };
