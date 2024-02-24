@@ -8,11 +8,9 @@ import getFormat from './formatters/index.js';
 const getFilePath = (filepath) => path.resolve(process.cwd(), filepath);
 const getFileType = (filepath) => path.extname(filepath).slice(1);
 const readFile = (filepath) => readFileSync(filepath);
-//  возможно надо добавить getFilePath(filepath)??????
 const dataParse = (filepath, ext) => parse(filepath, ext);
 
 const gendiff = (filepath1, filepath2, format) => {
-  //  format третьим аргументом (stylish ...)
   const ext1 = getFileType(filepath1);
   const path1 = getFilePath(filepath1);
   const data1 = readFile(path1);

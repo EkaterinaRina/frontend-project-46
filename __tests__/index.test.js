@@ -31,3 +31,10 @@ test.each(files)('gendiff for plain', (file1, file2) => {
   const result = readFile('resultPlain.txt');
   expect(gendiff(filepath1, filepath2, 'plain')).toEqual(getString(result));
 });
+
+test.each(files)('gendiff for json', (file1, file2) => {
+  const filepath1 = getFilePath(file1);
+  const filepath2 = getFilePath(file2);
+  const result = readFile('resultJson.txt');
+  expect(gendiff(filepath1, filepath2, 'json')).toEqual(getString(result));
+});
