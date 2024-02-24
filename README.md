@@ -32,3 +32,6 @@ gendiff -h
 ### Плоский формат (plain)  
 [![asciicast](https://asciinema.org/a/fauDcs8miUR4tXA4kWV5rt8vr.svg)](https://asciinema.org/a/fauDcs8miUR4tXA4kWV5rt8vr)  
 
+### Вывод в JSON  
+[![asciicast](https://asciinema.org/a/uHxyNipzMZwNrBshWtsyPx605.svg)](https://asciinema.org/a/uHxyNipzMZwNrBshWtsyPx605)  
+
