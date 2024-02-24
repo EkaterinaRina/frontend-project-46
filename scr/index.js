@@ -10,7 +10,7 @@ const getFileType = (filepath) => path.extname(filepath).slice(1);
 const readFile = (filepath) => readFileSync(getFilePath(filepath));
 const dataParse = (filepath, ext) => parse(filepath, ext);
 
-const gendiff = (filepath1, filepath2, format) => {
+const gendiff = (filepath1, filepath2, format = 'stylish') => {
   const ext1 = getFileType(filepath1);
   const path1 = getFilePath(filepath1);
   const data1 = readFile(path1);

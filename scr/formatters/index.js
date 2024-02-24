@@ -11,7 +11,6 @@ export default (data, format) => {
     case 'json':
       return getJson(data);
     default:
-      return [];
-      //  throw new Error(`Неизвестный формат ${format}`);
+      throw new Error(`Неизвестный формат ${format}`);
   }
 };
