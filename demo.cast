@@ -1,8 +1,0 @@
-{"version": 2, "width": 120, "height": 30, "timestamp": 1708268266, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.029905, "o", "\u001b[?2004h\u001b[1;34mfrontend-project-46\u001b[m\u001b[32m (main)\u001b[00m $ "]
-[1.06794, "o", "\u001b[7mgendiff __fixtures__/file1.json __fixtures__/file2.json\u001b[27m"]
-[1.647769, "o", "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cgendiff __fixtures__/file1.json __fixtures__/file2.json\r\n\u001b[?2004l\r"]
-[1.954093, "o", "{\r\n- follow: false\r\n  host: hexlet.io\r\n- proxy: 123.234.53.22\r\n- timeout: 50\r\n+ timeout: 20\r\n+ verbose: true\r\n}\r\n"]
-[1.969163, "o", "\u001b[?2004h\u001b[1;34mfrontend-project-46\u001b[m\u001b[32m (main)\u001b[00m $ "]
-[4.201525, "o", "\u001b[?2004l\r\r\n"]
-[4.202022, "o", "exit\r\n"]
