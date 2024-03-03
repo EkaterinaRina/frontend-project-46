@@ -12,11 +12,9 @@ const dataParse = (filepath, ext) => parse(filepath, ext);
 
 const gendiff = (filepath1, filepath2, format = 'stylish') => {
   const ext1 = getFileType(filepath1);
-  const path1 = getFilePath(filepath1);
-  const data1 = readFile(path1);
+  const data1 = readFile(filepath1);
   const ext2 = getFileType(filepath2);
-  const path2 = getFilePath(filepath2);
-  const data2 = readFile(path2);
+  const data2 = readFile(filepath2);
   const obj1 = dataParse(data1, ext1);
   const obj2 = dataParse(data2, ext2);
   const difference = compareFiles(obj1, obj2);

@@ -11,7 +11,7 @@ const parse = (filepath, ext) => {
   try {
     return parsing[ext](filepath);
   } catch (error) {
-    if (!Object.prototype.hasOwnProperty.call(parsing, ext)) {
+    if (!Object.hasOwn(parsing, ext)) {
       throw new Error(`Неизвестный формат ${ext}!`);
     } else {
       throw error;
