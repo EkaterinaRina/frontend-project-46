@@ -18,7 +18,7 @@
 
 ### Агрументы и опции  
 gendiff -h  
-[![asciicast](https://asciinema.org/a/8HGR5Nc1805GyLNWhDzQzq9FN.svg)](https://asciinema.org/a/8HGR5Nc1805GyLNWhDzQzq9FN)  
+[![asciicast](https://asciinema.org/a/8HGR5Nc1805GyLNWhDzQzq9FN.svg)](https://asciinema.org/a/8HGR5Nc1805GyLNWhDzQzq9FN)   
   
 ### Сравнение плоских файлов (json)  
 [![asciicast](https://asciinema.org/a/LRb1gJpWca4WoCvFO4pwYpO4E.svg)](https://asciinema.org/a/LRb1gJpWca4WoCvFO4pwYpO4E)  
